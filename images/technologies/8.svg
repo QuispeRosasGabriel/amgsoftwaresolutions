@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <g id="icon-txt" fill="#FFFFFF">
+                <rect id="Mask" x="0" y="0" width="120" height="120" rx="60"></rect>
+            </g>
+            <g id="ethereum-logo" transform="translate(35.000000, 20.000000)" fill-rule="nonzero">
+                <g id="Group">
+                    <g id="LWPOLYLINE" transform="translate(0.000000, 45.400000)" fill="#8C8C8C">
+                        <polyline id="Path" points="-2.66453526e-15 -7.10542736e-15 24.5 34.6 24.5 14.5 -2.66453526e-15 -7.10542736e-15"></polyline>
+                    </g>
+                    <g id="LWPOLYLINE_1_" transform="translate(0.000000, 29.600000)" fill="#393939">
+                        <polyline id="Path" points="-2.66453526e-15 11.1 24.5 25.7 24.5 -7.10542736e-15 -2.66453526e-15 11.1"></polyline>
+                    </g>
+                    <g id="LWPOLYLINE_2_" fill="#8C8C8C">
+                        <polyline id="Path" points="-2.66453526e-15 40.7 24.5 29.6 24.5 0 -2.66453526e-15 40.7"></polyline>
+                    </g>
+                    <g id="LWPOLYLINE_3_" transform="translate(24.500000, 45.400000)" fill="#343434">
+                        <polyline id="Path" points="24.6 -7.10542736e-15 0 34.6 0 14.5 24.6 -7.10542736e-15"></polyline>
+                    </g>
+                    <g id="LWPOLYLINE_4_" transform="translate(24.500000, 29.600000)" fill="#151515">
+                        <polyline id="Path" points="24.6 11.1 0 25.7 0 -7.10542736e-15 24.6 11.1"></polyline>
+                    </g>
+                    <g id="LWPOLYLINE_5_" transform="translate(24.500000, 0.000000)" fill="#343434">
+                        <polyline id="Path" points="24.6 40.7 0 29.6 0 0 24.6 40.7"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

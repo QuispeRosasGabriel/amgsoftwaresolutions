@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <g id="icon-txt" fill="#FFFFFF">
+                <rect id="Mask" x="0" y="0" width="120" height="120" rx="60"></rect>
+            </g>
+            <g id="angular" transform="translate(26.176000, 24.000000)" fill-rule="nonzero">
+                <polygon id="Path" fill="#DD0031" points="33.516 0 33.516 0 33.516 0 0 11.952 5.112 56.268 33.516 72 33.516 72 33.516 72 61.92 56.268 67.032 11.952"></polygon>
+                <polygon id="Path" fill="#C3002F" points="33.516 0 33.516 7.992 33.516 7.956 33.516 44.424 33.516 44.424 33.516 72 33.516 72 61.92 56.268 67.032 11.952"></polygon>
+                <path d="M33.516,7.956 L12.564,54.936 L12.564,54.936 L20.376,54.936 L20.376,54.936 L24.588,44.424 L42.372,44.424 L46.584,54.936 L46.584,54.936 L54.396,54.936 L54.396,54.936 L33.516,7.956 L33.516,7.956 L33.516,7.956 L33.516,7.956 L33.516,7.956 Z M39.636,37.944 L27.396,37.944 L33.516,23.22 L39.636,37.944 Z" id="Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

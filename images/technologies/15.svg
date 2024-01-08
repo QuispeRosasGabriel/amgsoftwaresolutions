@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <g id="icon-txt" fill="#FFFFFF">
+                <rect id="Mask" x="0" y="0" width="120" height="120" rx="60"></rect>
+            </g>
+            <g id="Sketch_Logo" transform="translate(16.000000, 20.000000)" fill-rule="nonzero">
+                <polygon id="Path" fill="#FDB300" points="19.2883097 2.63392802 44.2023763 0 69.1164428 2.63392802 88.4047523 28.5267797 44.2023763 79.9999831 0 28.5267797"></polygon>
+                <polygon id="Path" fill="#EA6C00" points="17.9041785 28.5267797 44.2024161 80 0 28.5267797"></polygon>
+                <polygon id="Path" fill="#EA6C00" transform="translate(66.303504, 54.263390) scale(-1, 1) translate(-66.303504, -54.263390) " points="62.1064749 28.5267797 88.4047125 80 44.2022964 28.5267797"></polygon>
+                <polygon id="Path" fill="#FDAD00" points="17.9041785 28.5267797 70.5006536 28.5267797 44.2024161 80"></polygon>
+                <polygon id="Path" fill="#FDD231" points="44.2024161 0 19.2882371 2.6338932 17.9041785 28.5267608"></polygon>
+                <polygon id="Path" fill="#FDD231" transform="translate(57.351399, 14.263380) scale(-1, 1) translate(-57.351399, -14.263380) " points="70.5005178 0 45.5863389 2.6338932 44.2022803 28.5267608"></polygon>
+                <polygon id="Path" fill="#FDAD00" transform="translate(78.760594, 15.580327) scale(-1, 1) translate(-78.760594, -15.580327) " points="69.116363 28.5267608 88.4048249 2.6338932 87.0205415 28.5267608"></polygon>
+                <polygon id="Path" fill="#FDAD00" points="0 28.5267608 19.2882371 2.6338932 17.9041785 28.5267608"></polygon>
+                <polygon id="Path" fill="#FEEEB7" points="44.2024161 0 17.9041785 28.5267608 70.5006536 28.5267608"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
