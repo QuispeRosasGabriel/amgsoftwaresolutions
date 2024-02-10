@@ -20,6 +20,5 @@ function scrollToSection(targetSection) {
   document.getElementById("body-wrapper").scrollTop = targetSection.offsetTop;
 }
 
-
 // Initialize the slider on page load
-window.addEventListener('DOMContentLoaded', () => generateSlider());;
+window.addEventListener('DOMContentLoaded', () => generateSlider());

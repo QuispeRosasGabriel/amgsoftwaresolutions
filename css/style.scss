@@ -105,12 +105,23 @@ body {
   }
 }
 
-/*header section*/
 .hero_area {
+  position: relative; /* Ensure positioning context for overlay */
   height: 100vh;
   background-color: #b5caee;
   background-image: url(../images/hero-bg.jpg);
   background-size: cover;
+}
+
+/* Add overlay */
+.hero_area::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust transparency as needed */
 }
 
 .sub_page {
