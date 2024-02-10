@@ -73,27 +73,43 @@
                     <a
                       class="nav-link"
                       href=""
+                      style="cursor: pointer"
                       onclick="scrollToSection('carouselExampleIndicators')"
                       >Inicio <span class="sr-only">(current)</span></a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" onclick="scrollToSection('about')">
+                    <a
+                      class="nav-link"
+                      style="cursor: pointer"
+                      onclick="scrollToSection('about')"
+                    >
                       Nosotros
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" onclick="scrollToSection('services')">
+                    <a
+                      class="nav-link"
+                      style="cursor: pointer"
+                      onclick="scrollToSection('services')"
+                    >
                       Servicios
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" onclick="scrollToSection('portfolio')">
+                    <a
+                      class="nav-link"
+                      style="cursor: pointer"
+                      onclick="scrollToSection('portfolio')"
+                    >
                       Portafolio
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" onclick="scrollToSection('contact')"
+                    <a
+                      class="nav-link"
+                      style="cursor: pointer"
+                      onclick="scrollToSection('contact')"
                       >Contacto</a
                     >
                   </li>
@@ -204,23 +220,7 @@
       </section>
     </div>
 
-    <section class="do_section layout_padding" id="services">
-      <div class="">
-        <div class="heading_container">
-          <h2>Tech Stack</h2>
-          <p>
-            En busca del éxito de tu proyecto, somos tu aliado ideal. Nos
-            comprometemos con tus metas y nos esforzamos por alcanzarlas juntos.
-          </p>
-        </div>
-
-        <div class="slider">
-          <div class="slide-track" id="slide-track"></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="who_section">
+    <section class="who_section" id="about">
       <div class="container">
         <div class="row">
           <div class="col-md-5">
@@ -250,10 +250,23 @@
       </div>
     </section>
 
-    <!-- end who section -->
+    <section class="do_section layout_padding" id="services">
+      <div class="">
+        <div class="heading_container">
+          <h2>Tech Stack</h2>
+          <p>
+            En busca del éxito de tu proyecto, somos tu aliado ideal. Nos
+            comprometemos con tus metas y nos esforzamos por alcanzarlas juntos.
+          </p>
+        </div>
 
-    <!-- work section -->
-    <section class="work_section layout_padding">
+        <div class="slider">
+          <div class="slide-track" id="slide-track"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work_section layout_padding" id="portfolio">
       <div class="container">
         <div class="heading_container">
           <h2>Nuestros clientes</h2>
@@ -383,7 +396,7 @@
 
     <!-- contact section -->
 
-    <section class="contact_section layout_padding">
+    <section class="contact_section layout_padding" id="contact">
       <div class="container">
         <div class="heading_container">
           <h2>Contacto</h2>
@@ -564,6 +577,7 @@
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/slider.js" defer></script>
+    <script type="text/javascript" src="js/main.js" defer></script>
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
