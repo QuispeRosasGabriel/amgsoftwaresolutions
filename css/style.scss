@@ -3,11 +3,24 @@ $white: #ffffff;
 $primary1:#fec016;
 
 @mixin main-font {
-  font-family: "Poppins", sans-serif;
+  @font-face {
+    font-family: 'Apple Font';
+    src: url('fonts/SansProRoman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  font-family: 'Apple Font', sans-serif;
 }
 
+
 @mixin secondary-font {
-  font-family: 'Open Sans', sans-serif;
+  @font-face {
+    font-family: 'Apple Font';
+    src: url('fonts/SansProRoman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  font-family: 'Apple Font', sans-serif;
 
 }
 

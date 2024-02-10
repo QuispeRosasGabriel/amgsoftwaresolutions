@@ -1,7 +1,11 @@
 body {
-  font-family: "Poppins", sans-serif;
-  color: #000000;
-  background-color: #ffffff;
+    font-family: 'Apple Font' !important;
+    src: url('fonts/SansProRoman.ttf') format('truetype') !important;
+    font-weight: normal;
+    font-style: normal;
+  /* font-family: "Apple font", sans-serif; */
+  /* color: #000000; */
+  /* background-color: #ffffff; */
 }
 
 .layout_padding {
