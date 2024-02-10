@@ -51,16 +51,16 @@ body {
   position: relative;
 }
 
-.heading_container h2::before, .heading_container h2::after {
+/* .heading_container h2::before, .heading_container h2::after {
   content: "";
   position: absolute;
   top: 50%;
   width: 40px;
   height: 1px;
   background-color: #198151;
-}
+} */
 
-.heading_container h2::before {
+/* .heading_container h2::before {
   left: -5px;
   -webkit-transform: translate(-100%, -50%);
           transform: translate(-100%, -50%);
@@ -70,7 +70,7 @@ body {
   right: -5px;
   -webkit-transform: translate(100%, -50%);
           transform: translate(100%, -50%);
-}
+} */
 
 .hero_area {
   position: relative; /* Ensure positioning context for overlay */
