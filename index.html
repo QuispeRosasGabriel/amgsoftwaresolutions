@@ -37,6 +37,7 @@
     <!-- responsive style -->
     <link href="css/responsive.css" rel="stylesheet" />
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
   <body id="body-wrapper">
@@ -164,7 +165,7 @@
                     <div class="detail-box">
                       <div>
                         <!-- <h2>We are</h2> -->
-                        <h1>AMG Software Solutions</h1>
+                        <h1 data-aos="zoom-in-right">AMG Software Solutions</h1>
                         <!-- <p>Let's build that project!</p> -->
                         <div class="">
                           <a href="">Let's Growth Together!</a>
@@ -232,9 +233,9 @@
           <div class="col-md-7">
             <div class="detail-box">
               <div class="heading_container">
-                <h2>Sobre Nosotros</h2>
+                <h2 data-aos="fade-up">Sobre Nosotros</h2>
               </div>
-              <p>
+              <p data-aos="fade-right">
                 Nos especializamos en proporcionar una guía experta para
                 empresas en diversos proyectos. Contamos con un equipo
                 excepcional de especialistas que han acumulado una vasta
@@ -254,8 +255,8 @@
     <section class="do_section layout_padding" id="services">
       <div class="">
         <div class="heading_container">
-          <h2>Tech Stack</h2>
-          <p>
+          <h2 data-aos="fade-up">Tech Stack</h2>
+          <p data-aos="fade-right">
             En busca del éxito de tu proyecto, somos tu aliado ideal. Nos
             comprometemos con tus metas y nos esforzamos por alcanzarlas juntos.
           </p>
@@ -270,8 +271,8 @@
     <section class="work_section layout_padding" id="portfolio">
       <div class="container">
         <div class="heading_container">
-          <h2>Clientes</h2>
-          <p>Nuestros proyectos nos respaldan</p>
+          <h2 data-aos="fade-up">Clientes</h2>
+          <p data-aos="fade-right">Nuestros proyectos nos respaldan</p>
         </div>
         <div class="work_container layout_padding2">
           <div class="box b-1">
@@ -296,7 +297,7 @@
     <section class="client_section">
       <div class="container">
         <div class="heading_container">
-          <h2>Testimonios</h2>
+          <h2 data-aos="fade-up">Testimonios</h2>
         </div>
         <div class="carousel-wrap">
           <div class="owl-carousel">
@@ -367,26 +368,26 @@
         <div class="row">
           <div class="col-md-3 col-sm-6">
             <div class="detail-box">
-              <h2>1000+</h2>
-              <h5>Years of Business</h5>
+              <h2 data-aos="fade-down">1000+</h2>
+              <h5 data-aos="fade-down">Years of Business</h5>
             </div>
           </div>
           <div class="col-md-3 col-sm-6">
             <div class="detail-box">
-              <h2>20000+</h2>
-              <h5>Projects Delivered</h5>
+              <h2 data-aos="fade-down">20000+</h2>
+              <h5 data-aos="fade-down">Projects Delivered</h5>
             </div>
           </div>
           <div class="col-md-3 col-sm-6">
             <div class="detail-box">
-              <h2>10000+</h2>
-              <h5>Satisfied Customers</h5>
+              <h2 data-aos="fade-down">10000+</h2>
+              <h5 data-aos="fade-down">Satisfied Customers</h5>
             </div>
           </div>
           <div class="col-md-3 col-sm-6">
             <div class="detail-box">
-              <h2>1500+</h2>
-              <h5>Cups of Coffee</h5>
+              <h2 data-aos="fade-down">1500+</h2>
+              <h5 data-aos="fade-down">Cups of Coffee</h5>
             </div>
           </div>
         </div>
@@ -603,6 +604,9 @@
         },
       });
     </script>
-    <!-- end owl carousel script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
