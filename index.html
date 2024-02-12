@@ -34,6 +34,37 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
+  <style>
+    .custom-col {
+      height: 100vh; /* Make columns full height of the viewport */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff; /* Text color */
+    }
+
+    .col1 {
+      background-color: #f3df49; /* Green */
+    }
+
+    .col2 {
+      background-color: #1e1e1e; /* Blue */
+    }
+
+    .col-content img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .col-content p {
+      color: #fff;
+    }
+
+    .col-content a {
+      color: #f3df49;
+    }
+  </style>
+
   <body id="body-wrapper">
     <div class="hero_area">
       <!-- header section strats -->
@@ -216,7 +247,7 @@
       </section>
     </div>
 
-    <section
+    <!-- <section
       class="who_section"
       id="about"
       style="
@@ -255,7 +286,76 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 custom-col col1">
+          <div class="col-content">
+            <img src="images/who-img.webp" alt="Image" />
+          </div>
+        </div>
+        <div class="col-md-6 custom-col col2">
+          <div class="col-content">
+            <div class="heading_container">
+              <h2 data-aos="fade-up">Sobre Nosotros</h2>
+            </div>
+            <p data-aos="fade-right">
+              Nos especializamos en proporcionar una guía experta para empresas
+              en diversos proyectos. Contamos con un equipo excepcional de
+              especialistas que han acumulado una vasta experiencia en proyectos
+              de alcance global. Nuestro objetivo es brindar soluciones
+              efectivas y orientadas a resultados que impulsen el éxito de tu
+              negocio.
+            </p>
+            <div>
+              <a href=""> Read More </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <section
+      class="who_section"
+      id="about"
+      style="
+        background-color: #1e1e1e;
+        color: #fff;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      "
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="img-box">
+              <img src="images/who-img.webp" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="detail-box">
+              <div class="heading_container">
+                <h2 data-aos="fade-up" style="color: #f3df49">
+                  Sobre Nosotros
+                </h2>
+              </div>
+              <p data-aos="fade-right">
+                Nos especializamos en proporcionar una guía experta para
+                empresas en diversos proyectos. Contamos con un equipo
+                excepcional de especialistas que han acumulado una vasta
+                experiencia en proyectos de alcance global. Nuestro objetivo es
+                brindar soluciones efectivas y orientadas a resultados que
+                impulsen el éxito de tu negocio.
+              </p>
+              <div>
+                <a href=""> Read More </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
 
     <section class="do_section layout_padding" id="services">
       <div class="">
