@@ -775,7 +775,7 @@ a:focus {
   width: 100px;
   height: 100px;
   animation: scroll 20s linear infinite;
-  border: 1.5px solid #F3DF49;
+  border: 3.5px solid #F3DF49;
   border-radius: 100px;
 }
 
