@@ -36,7 +36,6 @@
 
   <style>
     .custom-col {
-      height: 100vh; /* Make columns full height of the viewport */
       display: flex;
       align-items: center;
       justify-content: center;
@@ -44,7 +43,8 @@
     }
 
     .col1 {
-      background-color: #f3df49; /* Green */
+      background-color: #1e1e1e;
+      height: 100%;
     }
 
     .col2 {
@@ -290,15 +290,22 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6 custom-col col1">
+        <div
+          class="col-md-6 p-0"
+          style="height: 100vh; overflow: hidden; background-color: #1e1e1e"
+        >
           <div class="col-content">
-            <img src="images/who-img.webp" alt="Image" />
+            <img
+              data-aos="fade-up"
+              src="images/programming-person.jpeg"
+              alt="Image"
+            />
           </div>
         </div>
-        <div class="col-md-6 custom-col col2">
+        <div class="col-md-6 custom-col col2" style="height: 100vh">
           <div class="col-content">
             <div class="heading_container">
-              <h2 data-aos="fade-up">Sobre Nosotros</h2>
+              <h2 data-aos="fade-up" style="color: #f3db05">Sobre Nosotros</h2>
             </div>
             <p data-aos="fade-right">
               Nos especializamos en proporcionar una guía experta para empresas
@@ -308,9 +315,6 @@
               efectivas y orientadas a resultados que impulsen el éxito de tu
               negocio.
             </p>
-            <div>
-              <a href=""> Read More </a>
-            </div>
           </div>
         </div>
       </div>
