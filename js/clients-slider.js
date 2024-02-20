@@ -5,7 +5,7 @@ const generateClientSlider = () => {
   for (let el = 1; el <= 10; el++) {
     console.log(el)
     const newNode = document.createElement("img");
-    newNode.src = `images/technologies/${el}.svg`;
+    newNode.src = `images/logos/${el}.svg`;
     newNode.alt = "";
     clientWapper.appendChild(newNode);
   }
