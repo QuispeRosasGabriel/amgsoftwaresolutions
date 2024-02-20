@@ -779,6 +779,19 @@ a:focus {
   border-radius: 100px;
 }
 
+.slide-clients {
+  width: 100%;
+  display: flex;
+  gap: 3em;
+  overflow: hidden;
+}
+
+.slide-clients img {
+  width: 100px;
+  height: 100px;
+  animation: scroll 20s linear infinite;
+}
+
 @keyframes scroll {
   0% {transform: translateX(0);}
   100% {transform: translatex(-1000%)}
