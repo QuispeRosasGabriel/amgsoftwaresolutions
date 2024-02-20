@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="New_Layer" data-name="New Layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 486.54 572.46">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 395.21px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-3 {
+        font-family: Grenoble-Serial-ExtraBold-Regular, Grenoble-Serial-ExtraBold;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        fill: #1d1d1b;
+      }
+
+      .cls-3 {
+        font-size: 352.45px;
+      }
+
+      .cls-4 {
+        font-family: NeuzeitGroteskCondW01-Black, NeuzeitGroteskCondW01-Black;
+        font-size: 66.99px;
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <g class="cls-2">
+    <text class="cls-1" transform="translate(49.97 375.53) rotate(-8.45) scale(.97 1)"><tspan x="0" y="0">D</tspan></text>
+  </g>
+  <g class="cls-2">
+    <text class="cls-3" transform="translate(272.18 465.51) rotate(-8.45) scale(.91 1)"><tspan x="0" y="0">A</tspan></text>
+  </g>
+  <g class="cls-2">
+    <text class="cls-4" transform="translate(30.42 560.2)"><tspan x="0" y="0">EDIFI</tspan></text>
+    <text class="cls-4" transform="translate(187.97 560.2)"><tspan x="0" y="0">C</tspan></text>
+    <text class="cls-4" transform="translate(226.02 560.2)"><tspan x="0" y="0">A</tspan></text>
+    <text class="cls-4" transform="translate(266.22 560.2)"><tspan x="0" y="0">CION</tspan></text>
+    <text class="cls-4" transform="translate(411.11 560.2)"><tspan x="0" y="0">E</tspan></text>
+    <text class="cls-4" transform="translate(448.96 560.2)"><tspan x="0" y="0">S</tspan></text>
+  </g>
+</svg>

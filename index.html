@@ -449,7 +449,7 @@
           </p>
         </div>
 
-        <div class="slider">
+        <div class="slider slide-track">
           <div class="slide-track" id="slide-track"></div>
         </div>
       </div>
@@ -458,14 +458,47 @@
     <section
       class="work_section layout_padding"
       id="portfolio"
-      style="background: #1e1e1e; margin-bottom: 20px"
-    >
+      style="background: #fff"
+      >
       <div class="container">
-        <div class="heading_container" style="color: #fff">
+        <div class="heading_container">
           <h2 data-aos="fade-up" style="color: #f3df49">Clientes</h2>
-          <p data-aos="fade-right">Nuestros proyectos nos respaldan</p>
+          <p data-aos="fade-right" style="color:#1e1e1e">Nuestros proyectos nos respaldan</p>
         </div>
-        <div class="work_container layout_padding2">
+        <div class="clients-desktop">
+          <div class="row">
+            <div class="col-md-12 col-sm-6">
+              <div class="d-flex justify-content-between align-items-center">
+                <img class="logo" src="images/logos/1.svg" alt="">
+                <img class="logo" src="images/logos/2.svg" alt="">
+                <img class="logo" src="images/logos/3.svg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-sm-6">
+              <div class="d-flex justify-content-between align-items-center">
+                <img class="logo" src="images/logos/4.svg" alt="">
+                <img class="logo" src="images/logos/5.svg" alt="">
+                <img class="logo" src="images/logos/6.svg" alt="">
+                <img class="logo" src="images/logos/7.svg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-sm-6">
+              <div class="d-flex justify-content-between align-items-center">
+                <img class="logo" src="images/logos/8.svg" alt="">
+                <img class="logo" src="images/logos/9.svg" alt="">
+                <img class="logo" src="images/logos/10.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clients-mobile">
+          <div id="clients-mobile-slider" class=" slide-track"></div>
+        </div>
+        <!-- <div class="work_container layout_padding2">
           <div class="box b-1">
             <img src="images/w-1.png" alt="" />
           </div>
@@ -478,14 +511,11 @@
           <div class="box b-4">
             <img src="images/w-4.png" alt="" />
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
 
-    <!-- end work section -->
-
-    <!-- client section -->
-    <section class="client_section">
+    <!-- <section class="client_section">
       <div class="container">
         <div class="heading_container">
           <h2 data-aos="fade-up">Testimonios</h2>
@@ -549,7 +579,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="target_section layout_padding2">
       <div class="container">
@@ -626,29 +656,46 @@
                 <div class="contact-form">
                   <form action="">
                     <div>
-                      <input type="text" placeholder="Nombres Completos" />
+                      <input
+                        data-aos="fade-down"
+                        type="text"
+                        placeholder="Nombres Completos"
+                      />
                     </div>
                     <div>
-                      <input type="text" placeholder="Telefono" />
+                      <input
+                        data-aos="fade-down"
+                        type="text"
+                        placeholder="Telefono"
+                      />
                     </div>
                     <div>
-                      <input type="text" placeholder="Empresa" />
+                      <input
+                        data-aos="fade-down"
+                        type="text"
+                        placeholder="Empresa"
+                      />
                     </div>
                     <div>
-                      <select placeholder="Servicios">
+                      <select data-aos="fade-down">
+                        <option value="" disabled selected hidden style="opacity: 1; color: #ccc;">Servicios</option>
                         <option value="">Desarrollo de sofware</option>
                         <option value="">IT Staffing</option>
                         <option value="">Diseno UX/UI</option>
                         <option value="">Monitoreo de aplicaciones</option>
-                      </select>
-                    </div>
+                    </select>
                     <div>
-                      <input type="email" placeholder="Correo" />
+                      <input
+                        type="email"
+                        data-aos="fade-down"
+                        placeholder="Correo"
+                      />
                     </div>
                     <div>
                       <input
+                        data-aos="fade-down"
                         type="text"
-                        placeholder="Message"
+                        placeholder="Mensaje"
                         class="input_message"
                       />
                     </div>
@@ -750,6 +797,7 @@
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/slider.js" defer></script>
+    <script type="text/javascript" src="js/clients-slider.js" defer></script>
     <script type="text/javascript" src="js/main.js" defer></script>
     <script
       type="text/javascript"

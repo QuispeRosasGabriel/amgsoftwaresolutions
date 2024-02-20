@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="New_Layer" data-name="New Layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1512.93 239.3">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2 {
+        fill: #1d1d1b;
+        font-family: ColonnaMT, 'Colonna MT';
+        font-size: 217.09px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+
+      .cls-4 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.1em;
+      }
+    </style>
+  </defs>
+  <rect class="cls-3" x="5" y="29.74" width="1502.93" height="169.41"/>
+  <text class="cls-2" transform="translate(15.96 165.1) scale(.6 1)"><tspan x="0" y="0">I</tspan><tspan class="cls-4" x="74.63" y="0">n</tspan><tspan class="cls-1" x="183.91" y="0">v</tspan><tspan x="291.61" y="0">ersiones REM</tspan><tspan class="cls-5" x="1511.7" y="0">A</tspan><tspan x="1636.79" y="0">NN S.A.C</tspan></text>
+</svg>

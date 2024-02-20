@@ -783,3 +783,29 @@ a:focus {
   0% {transform: translateX(0);}
   100% {transform: translatex(-1000%)}
 }
+
+
+
+.logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+@media screen and (min-width: 767px) {
+  .clients-desktop {
+    display: block !important;
+  }
+  .clients-mobile {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .clients-desktop {
+    display: none !important;
+  }
+  .clients-mobile {
+    display: flex !important;
+  }
+}

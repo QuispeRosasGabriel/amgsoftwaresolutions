@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="New_Layer" data-name="New Layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1474.3 399.65">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-4 {
+        fill: #1d1d1b;
+        font-family: RockwellNovaW07-ExtraBold, RockwellNovaW07-ExtraBold;
+        font-size: 143.84px;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        fill: none;
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+
+      .cls-11 {
+        letter-spacing: -.13em;
+      }
+    </style>
+  </defs>
+  <text class="cls-4" transform="translate(39.88 154.17) scale(1.13 1)"><tspan x="0" y="0">INVERS</tspan><tspan class="cls-3" x="668.49" y="0">I</tspan><tspan class="cls-9" x="737.25" y="0">ON</tspan><tspan class="cls-1" x="1005.33" y="0">E</tspan><tspan x="1120.87" y="0">S </tspan><tspan x="0" y="172.61">N</tspan><tspan class="cls-6" x="133.16" y="172.61">A</tspan><tspan class="cls-8" x="247.86" y="172.61">G</tspan><tspan class="cls-9" x="375.19" y="172.61">A </tspan><tspan class="cls-2" x="545.65" y="172.61">S</tspan><tspan x="639.13" y="172.61">.A</tspan><tspan class="cls-5" x="819.42" y="172.61">.</tspan><tspan class="cls-7" x="875.4" y="172.61">C</tspan><tspan class="cls-11" x="994.24" y="172.61">.</tspan></text>
+  <rect class="cls-10" x="21.24" y="21.43" width="1416.71" height="354.87"/>
+  <rect class="cls-10" x="5" y="5" width="1449.18" height="389.65"/>
+</svg>
