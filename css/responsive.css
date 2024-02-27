@@ -6,7 +6,6 @@
     .slider_section {
         padding: 50px 0;
     }
-
 }
 
 @media (max-width: 992px) {
@@ -26,7 +25,34 @@
     .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
         padding: 0 5px;
     }
+
+    .slide-track img{
+        width: 75.5px;
+        height: 75.5px;
+        margin-left: 24.5px;
+        margin-right: 24.5px;
+    }
 }
+
+@media (max-width: 862px) {
+    
+
+    @media (max-width: 862px) {
+        .col-md-6 {
+            min-height: 100%;  
+        }
+    
+        .c1 {
+            height:  100%;
+        }
+    
+        .c1 img {
+            height: auto; 
+            max-width: 100%; 
+        }
+    }
+}
+
 
 @media (max-width: 768px) {
 
@@ -67,6 +93,7 @@
     .footer_section p {
         padding: 20px 30px;
     }
+ 
 }
 
 @media (max-width: 576px) {
