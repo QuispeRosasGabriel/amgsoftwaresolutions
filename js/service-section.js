@@ -9,11 +9,11 @@ serviceSection.appendChild(serviceContainer)
 serviceSection.appendChild(infoContainer)
 
 const arrIcon = [
-    {id: "It Outsorcing", p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis veritatis qui totam. Facilis optio enim corporis voluptatibus, consectetur a sed! Odit modi exercitationem nihil! Iure ducimus exercitationem error quia debitis!1"},
-    {id: "Headhing", p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis veritatis qui totam. Facilis optio enim corporis voluptatibus, consectetur a sed! Odit modi exercitationem nihil! Iure ducimus exercitationem error quia debitis!2"},
-    {id: "Mantenimiento de software", p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis veritatis qui totam. Facilis optio enim corporis voluptatibus, consectetur a sed! Odit modi exercitationem nihil! Iure ducimus exercitationem error quia debitis!3"},
-    {id: "Desarrollo de software", p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis veritatis qui totam. Facilis optio enim corporis voluptatibus, consectetur a sed! Odit modi exercitationem nihil! Iure ducimus exercitationem error quia debitis!4"},
-    {id: "Administración de proyecto", p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis veritatis qui totam. Facilis optio enim corporis voluptatibus, consectetur a sed! Odit modi exercitationem nihil! Iure ducimus exercitationem error quia debitis!5"},
+    {id: "It Outsorcing", p: "El servicio de outsourcing permite a nuestros clientes disponer de equipos tecnológicos altamente competitivos, sin asumir los costos de un equipo interno como el mantenimiento, la contratación, la formación, entre otros, lo que les permite centrarse en su negocio."},
+    {id: "Headhunting", p: "Contamos con una gran red de especialistas a nivel global, ayudamos a que nuestros clientes puedan encontrar a ese profesional que haga match con sus requerimientos"},
+    {id: "Mantenimiento de software", p: "Sabemos que algunos sistemas no pueden cambiar, contamos con expertos para esos requerimientos especiales como Cobol, Perl y DB2 "},
+    {id: "Desarrollo de software", p: "Desarrollamos software de alta calidad, nuestros expertos tienen basta experiencia trabajando en proyectos a nivel global, enfocado a miles de usuarios."},
+    {id: "Administración de proyectos", p: "Contamos con muchos expertos en management, los cuales te ayudaran a aterrizar cada una de tus ideas y podran dirigir cada paso del proyecto."},
 ]
  
 function validate(index){
@@ -45,6 +45,7 @@ function generateIconContainer() {
 
        img.src = `images/service-icon/${i}.svg`;
        img.alt = "";
+        img.style.cursor = 'pointer'
 
        newIconC.appendChild(img);
        serviceContainer.appendChild(newIconC);
